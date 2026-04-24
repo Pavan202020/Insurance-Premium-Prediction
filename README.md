@@ -1,7 +1,15 @@
-Insurance Premium Prediction
+# 🚀 Insurance Premium Prediction
+An end-to-end machine learning project that predicts insurance premiums using customer demographics and health data, with an interactive Streamlit web application for real-time estimation.
 
 ## Live Demo
 - Tableau Dashboard: https://public.tableau.com/app/profile/pavan.kumar3701/viz/InsurancePremiumPredictionDashboard/SummaryStatisticsDashboard?publish=yes
+
+💼 Business Impact
+
+This model can help insurance companies:
+- Estimate premiums quickly for new customers
+- Identify high-risk profiles early
+- Improve pricing strategies using data-driven insights
 
 🚀 Project Overview
 
@@ -81,7 +89,7 @@ Derived profile display (BMI, risk category, health score)
 Premium risk interpretation (low / medium / high)
 ⚙️ How to Run the App Locally
 # Clone the repo
-git clone <your-repo-link>
+git clone https://github.com/Pavan202020/Insurance-Premium-Prediction.git
 
 # Navigate to project folder
 cd Insurance-Premium-Prediction
@@ -123,9 +131,25 @@ Difference between statistical significance and practical impact
 Handling non-linear relationships using tree-based models
 End-to-end ML pipeline from EDA to deployment
 
-Insurance Pricing Calculator .png
-Risk Factors Analysis Dashboard.png
-Premium Pricing Dashboard.png
+## 📸 Application Preview
+
+![App Screenshot](Insurance Pricing Calculator .png)
+
+## 📊 Tableau Dashboard Preview
+
+![Dashboard](Premium Pricing Dashboard.png)
+
+🚀 Future Improvements
+
+- Hyperparameter tuning with GridSearchCV / Optuna
+- Try gradient boosting frameworks (XGBoost, LightGBM)
+- Deploy on cloud (Streamlit Cloud / AWS)
+- Build REST API using Flask/FastAPI
+
+🌐 Live App
+
+Currently runnable locally using Streamlit.
+(Cloud deployment planned)
 
 👤 Author
 
